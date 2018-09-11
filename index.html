@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Roboto+Slab|Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bgrd">
+    <a class="navbar-brand bgrd" href="#">Quincy Hodge</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu text" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#About me">About Me</a>
+            <a class="dropdown-item" href="#contact">Contact Me</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#Projects">Portfolio</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">disabled</a>
+        </li>
+      </ul>
+<!--      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+      </form>-->
+    </div>
+  </nav>
+
+
+</body>
+
+<div class="jumbotron my-jumbo">
+  <div class="container">
+    <div class="row text-white" style="background-image:url('../portfolio/assets/img/images1.jpg'); background-size: cover;">
+      <h1 class="display-4 font1">Well this should be interesting</h1>
+<!--      <p class="lead">Some type of random eye catching thing</p>-->
+      <!-- <hr class="my-4"> -->
+      <img class="col-6 h-50" src="../portfolio/assets/img/HodgeQuincy.jpeg">
+      <p class="col-6">There is where I will tell some short story about myself that makes me sound interesting, eventhough, there really isn't anything that interesting to talk about..</p>
+      <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+    </div>
+  </div>
+ </div> 
+  <!--portfolio-->
+<!--  <div class="projects bg-dark text-white">-->
+    <div class="container-fluid bg-dark text-white mb-4">
+    <p>
+      These are the projects that we completed during the Gold Badge, portion of 1150 Academy.
+      <a href="https://quincyh.github.io/firstWebsite/"></a>
+      <img src=>
+    </p>
+    <div class="row m-0 p-0">
+        <div class="col-4">
+          <p>project 1</p>
+          <img class="w-100" src="https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png">
+        </div>
+        <div class="col-4">
+            <p>project 1</p>
+            <img class="w-100" src="https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png">
+          </div>
+        <div class="col-4">
+          <p>project 1</p>
+          <img class="w-100" src="https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png">
+        </div>
+         <!--<a href="" class="button" type="btn btn-lg btn-black" target="" Resume></a>-->
+        <!-- <button type="submit" class="btn">Resume</button> -->
+      </div>
+    </div>
+<!--  </div>-->
+  <!--Contact Me-->
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="">
+        <form action="https://formspree.io/quincy.hodge877@gmail.com" method="POST">
+          <div class="control-group">
+            <div class="form-group">
+              <label>name</label>
+              <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                data-validation-required-message="Please enter your name" name="name">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                data-validation-required-message="Please enter your email" name="_replyto">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group">
+              <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                data-validation-required-message="Please leave a message" name="message"></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-lg btn-black">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+<!--footer-->
+<div class="footer bg-dark text-white mt-4 p-2">
+  <div class="container">
+    <div class="row">
+      <span> &copy; 2018 Wheredreamscometrue.com </span>
+      <p>Address: 5425 Nighthawk Dr., Indianapolis, IN, 33619</p>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.bgrd {
+background: blue; 
+}
+
+.text {
+  background-color: var(--black); 
+  text-align: center;
+  font-display: var(--font1)
+}
+
+
+

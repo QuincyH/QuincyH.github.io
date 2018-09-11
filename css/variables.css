@@ -1,0 +1,20 @@
+:root {
+  --orange: #f98500;
+  --black: #000000;
+  --blue: #023484;
+  --darkBlue: #0d0284;
+  --darkGray: #3b3949;
+  --silver: #773377;
+  --darkRed: #630b00;
+  --red: #cc4411;
+  --brown: #89480f;
+  --beige: #ed8e3b;
+  --skyblue:#79a2e5;
+
+  --font1: var('Roboto Slab', serif;);
+  --font2: var('Varela Round', sans-serif;);
+  --font3: var('Great Vibes', cursive;); 
+}
+
+
+
